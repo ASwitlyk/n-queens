@@ -79,6 +79,8 @@
     //
     // test if a specific row on this board contains a conflict
     hasRowConflictAt: function(rowIndex) {
+      
+      console.log(this._currentAttributes[rowIndex]);
       return false; // fixme
     },
 
